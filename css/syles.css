@@ -302,6 +302,7 @@ header {
 }
 
 .footer-button-icons-follow {
+  cursor: pointer;
   width: 44px;
   height: 44px;
   border: none;
@@ -419,14 +420,14 @@ header {
 }
 
 .about-us-svg {
-  margin: auto;
   width: 70px;
   height: 70px;
 }
 
-.bout-us-svg-container {
-  display: flex;
+.about-us-svg-container {
+  justify-content: center;
   align-items: center;
+  display: flex;
   margin-bottom: 30px;
   border-radius: 4px;
   width: 270px;
@@ -458,7 +459,6 @@ header {
 }
 
 .our-teammate {
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
@@ -488,10 +488,11 @@ header {
 }
 
 .list-icons {
-  margin: 16px 32px 30px 32px;
+  margin-top: 16px;
 }
 
 .button-icons-follow {
+  cursor: pointer;
   width: 44px;
   height: 44px;
   border: none;
@@ -505,10 +506,15 @@ header {
   fill: var(--white-color);
 }
 
+.our-teammate-block {
+  padding: 30px 32px;
+}
+
 /*----------------------------- SECTION 5 -----------------------------*/
 
 .client-button {
   display: block;
+  justify-content: center;
   align-items: center;
   border-radius: 4px;
   border: 1px solid var(--icon-color);
@@ -529,6 +535,8 @@ header {
 }
 
 .client-logo {
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
